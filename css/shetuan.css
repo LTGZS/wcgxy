@@ -1,0 +1,120 @@
+.nr{
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(160deg, #3CB371 20%,#1E90FF 80%,	#F08080) !important;
+	background-repeat: no-repeat;
+	
+}
+.stxxnr{
+	width: 1000px;
+	margin: 0 auto;
+	/* background-color: white; */
+	margin-top: 140px;
+}
+.dytj{
+		text-align: center;
+		font-weight: bold;
+	}
+	.stxw{
+		display: flex;
+		width: 100%;
+		height: 100px;
+		/* background-color: #204D74; */
+		margin: 10px 0px 10px 0px;
+		
+	}
+	.zuo{
+		box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+		margin-right: 10px;
+		width: 100px;
+		height: 100px;
+		float: left;
+		border-radius: 50px;
+		background-color: #000000;
+		background-image: url(../img/1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		border:  2px solid white;
+	}
+	.you{
+		box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+		float:right;
+		width:880px;
+		height: 100px;
+		/* background-color: #1974A1; */
+		background-color:rgba(0,0,0,0);
+		border-radius: 50px;
+		border:  2px solid white;
+		
+	}
+	
+	.stsp{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.stsp iframe{
+		width:30%;
+		height: 160px;
+		margin: 10px;
+		border-radius: 15px;
+		border:  3px solid white;
+		box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+	}
+@media only screen and (max-width: 900px){
+	.stxxnr{
+		width: 100%;
+		height: 320px;
+		margin: 0 auto;
+		/* background-color: white; */
+		margin-top: 110px;
+	}
+	.dytj{
+		text-align: center;
+		font-weight: bold;
+	}
+	.stxw{
+		display:inline-block;
+		width: 100%;
+		height: 100px;
+		/* background-color: #204D74; */
+		/* margin: 10px 0px 10px 0px; */
+	}
+	.zuo{
+		width: 100px;
+		height: 100px;
+		margin: 0 auto;
+		/* float: left; */
+		float: inherit;
+		border-radius: 50px;
+		background-color: #000000;
+		background-image: url(../img/1.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	.you{
+		/* float:right; */
+		display:block;
+		border-radius: 20px;
+		float: inherit;
+		margin: 0 auto;
+		width: 90%;
+		height: 150px;
+		/* background-color: #1974A1; */
+		margin-top: 10px;
+	}
+	.stsp{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.stsp iframe{
+		display: block;
+		margin: 0 auto;
+		width:90%;
+		height: 170px;
+		margin-top: 20px;
+		border-radius: 15px;
+		border:  3px solid white;
+	}
+}

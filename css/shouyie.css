@@ -1,0 +1,165 @@
+.nr{
+	width: 100%;
+	height: 100% !important;
+	background-image: linear-gradient(160deg, #3CB371 20%,#1E90FF 80%,	#F08080) !important;
+	background-repeat: no-repeat;
+}
+.dianyin{
+	position: relative;
+	left: 0;right: 0;
+	width: 1000px;
+	/* background-color: #204D74; */
+	margin: 0 auto;
+	margin-top: 130px;
+}
+.dydhl a{
+	margin-left: 10px;
+	font-weight: bold;
+}
+.dytj{
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+}
+.dytj a{
+	color:black;
+}
+.stnr{
+	margin: 20px;
+}
+.shetuan{
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content:space-around;
+	width: 1000px;
+	margin: 0 auto;
+}
+.shetuan iframe{
+	width:30%;
+	height: 160px;
+	margin: 10px;
+	border-radius: 15px;
+	border:  3px solid white;
+	box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+}
+.shangpin{
+	display: flex;
+	flex-wrap:wrap ;
+	justify-content:space-around;
+	width: 1000px;
+	height: 100%;
+	margin: 0 auto;
+	/* background-color: #204D74; */
+}
+.spmm,.spmm1,.spmm2,.spmm3,.spmm4,.spmm5,.spmm6,.spmm7,.spmm8,.spmm9{
+	width: 180px;
+	height: 240px;
+	margin: 10px;
+	border-radius: 15px;
+	background-color: white;
+	/* background-image: url(../img/2.jpg); */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+}
+.spmm{
+	background-image: url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3651115826,735899143&fm=26&gp=0.jpg);
+}
+.spmm1{
+	background-image: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577190186119&di=338ddf40bb57f3cfbb26c78b422a7398&imgtype=0&src=http%3A%2F%2Fimg01.taopic.com%2F160104%2F318765-160104094K616.jpg);
+}
+.spmm2{
+	background-image: url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1063282716,963145649&fm=26&gp=0.jpg);
+}
+.spmm3{
+	background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=1200879824,1758479801&fm=26&gp=0.jpg);
+}
+.spmm4{
+	background-image: url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=4175836079,1510053250&fm=26&gp=0.jpg);
+}
+.spmm5{
+	background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2823697558,2870093065&fm=26&gp=0.jpg);
+}
+.spmm6{
+	background-image: url(https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3669245375,218641442&fm=15&gp=0.jpg);
+}
+.spmm7{
+	background-image: url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3523192210,1894828655&fm=26&gp=0.jpg);
+}
+.spmm8{
+	background-image: url(https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=1101838102,2055091615&fm=26&gp=0.jpg);
+}
+.spmm9{
+	background-image: url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=1171658360,2762987281&fm=26&gp=0.jpg);
+}
+.spjs{
+	text-align: center;
+	line-height: 28px;
+	width: 100%;
+	height: 90px;
+	background-color:white;
+	border-radius: 15px;
+	margin-top: 150px;
+	box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+}
+.spjs h4{
+	color: brown;
+}
+.spjs a h4{
+	color:brown;
+}
+@media only screen and (max-width: 900px){
+	.dianyin{
+		position: relative;
+		left: 0;right: 0;
+		width: 100%;
+		/* background-color: #204D74; */
+		margin: 0 auto;
+		margin-top: 130px;
+	}
+	.shetuan{
+		display: flex;
+		flex-wrap:wrap ;
+		justify-content:space-around;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.shetuan iframe{
+		width:95%;
+		height: 160px;
+		margin: 10px;
+		border-radius: 15px;
+		border:  3px solid white;
+	}
+	.shangpin{
+		display: flex;
+		flex-wrap:wrap ;
+		justify-content:space-around;
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		/* background-color: #204D74; */
+	}
+	.spmm,.spmm1,.spmm2,.spmm3,.spmm4,.spmm5,.spmm6,.spmm7,.spmm8,.spmm9{
+		width: 160px;
+		height: 220px;
+		margin-top: 10px;
+		border-radius: 15px;
+		background-color: white;
+		/* background-image: url(../img/2.jpg); */
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+	}
+	.spjs{
+		width: 100%;
+		height: 90px;
+		background-color: white;
+		border-radius: 15px;
+		margin-top: 130px;
+		box-shadow:2px 2px 15px 2px rgba(0,0,0,0.5);/* 边框内阴影 */
+	}
+}

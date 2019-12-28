@@ -1,0 +1,121 @@
+
+			.spqb{
+				height: 60vh;
+				display: flex;
+				
+				/* background-color: aquamarine; */
+			}
+			.spqb .qb{
+				border-radius:0px 10px 10px 0px;
+				height: 100%;
+				/* background-color: white; */
+				
+				border: 3px solid white;
+				-moz-box-shadow:10px 10px 20px #333333;
+				-webkit-box-shadow:10px 10px 20px #333333; 
+				box-shadow:10px 10px 20px #333333;
+				overflow-y:scroll
+				
+			}
+			
+			.qb::-webkit-scrollbar {/*滚动条整体样式*/
+			        width: 10px;     /*高宽分别对应横竖滚动条的尺寸*/
+			        height: 1px;
+			    }
+			.qb::-webkit-scrollbar-thumb {/*滚动条里面小方块*/
+			        border-radius: 10px;
+			         -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+			        background: #535353;
+			    }
+			.qb::-webkit-scrollbar-track {/*滚动条里面轨道*/
+			        -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+			        border-radius: 10px;
+			        background: #EDEDED;
+			    }
+			.spqb iframe{
+				border: 3px solid white;
+				display: block;
+				border-radius: 10px 0px 0px 10px;
+				width: 60vw;
+				height: 60vh;
+				-moz-box-shadow:10px 10px 20px #333333; 
+				-webkit-box-shadow:10px 10px 20px #333333; 
+				box-shadow:10px 10px 20px #333333;
+				margin: 0 auto;
+				
+			}
+		   
+			#MenuTb{
+			
+			margin: 10px;
+			
+			display: flex;
+			/* background-color: white; */
+			font-size: 14px;
+			
+			}
+			#MenuTb:hover .bftp{
+				display: block;
+			}
+			#MenuTb a{
+				
+				font-size: 14px;
+				/* background-color: white; */
+				white-space:nowrap;
+				text-overflow:ellipsis; 
+				text-decoration:none;
+				font-weight:bold;
+				color:black
+			}
+			#MenuTb a p:hover{
+				color: #A52A2A;
+			}
+			p{
+				width: 100px;
+				margin: 10px;
+				font-weight:bold;
+				color:black
+			}
+			.dyhb{
+				width: 110px;
+				height: 150px;
+				background-color: black;
+			}
+			.bftp{
+				width: 110px;
+				height: 150px;
+				margin-left:-110px ;
+				opacity:0.6;
+				display: none;
+				
+			}
+			@media only screen and (max-width: 760px){
+				.spqb{
+					height: 100vh;
+					display: block;
+				}
+				.spqb .qb{
+					border-radius: 0px;
+					width: 100%;
+					height: 60vh;
+					/* background-color: white; */
+					margin-top: -40px;
+					-moz-box-shadow:10px 10px 20px #333333;
+					-webkit-box-shadow:10px 10px 20px #333333; 
+					box-shadow:10px 10px 20px #333333;
+					overflow-y:scroll
+					
+				}
+				.spqb iframe{
+					display: block;
+					border-radius: 0px;
+					width: 100%;
+					height: 200px;
+					-moz-box-shadow:10px 10px 20px #333333; 
+					-webkit-box-shadow:10px 10px 20px #333333; 
+					box-shadow:10px 10px 20px #333333;
+					margin: 0 auto;
+					
+				}
+			}
+			

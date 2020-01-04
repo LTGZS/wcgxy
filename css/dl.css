@@ -3,9 +3,9 @@
 	padding: 0;
 }
 body{
-	background-image: url('https://img.zcool.cn/community/017e855cdbaf01a801208f8bd29353.jpg');
+	background-image: url('http://www.wuit.cn/__local/D/41/C3/BB6165F9185ECBAEC371FB78863_36FFE4C6_8378A.jpg');
 	background-repeat: no-repeat;
-	
+	background-color:darkcyan;
 }
 #imgs{
 	z-index: 9999;
@@ -13,7 +13,7 @@ body{
 	top: 0px;
 	width:100%;
 	height: 100vh;
-	background-image: url(../img/wcglogo.png);
+	background-image: url(https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3548288715,1875763324&fm=26&gp=0.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 20%;
@@ -29,15 +29,17 @@ body{
 	width: 800px; height: 400px;
 	background-color:white;
 	border: 4px solid white;
+	box-shadow:4px 4px 20px 4px rgba(0,0,0,0.6);/* 边框内阴影 */
 }
 .dlz{
 	float: left;
 	border-radius: 10px 0px 0px 10px;
 	width: 400px; height: 400px;
 	background-color:black;
-	background-image: url('https://img.zcool.cn/community/01c1b55774ba230000018c1b32f77d.gif');
+	background-image: url('https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1578140361915&di=99d3c7d79a97d74b02ce3f0d6118710a&imgtype=jpg&src=http%3A%2F%2Fimg1.imgtn.bdimg.com%2Fit%2Fu%3D2278172251%2C302040202%26fm%3D214%26gp%3D0.jpg');
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: 180%;
 }
 .dly{
 	float: right;
